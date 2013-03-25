@@ -1,0 +1,13 @@
+<h2>Edit</h2>
+
+<form action = "/makers/<%= @maker.id  %>" method = "post">
+    <label>First Name</label>
+    <p><input type="text" name="maker[first_name]" value="<%= @maker.first_name  %>"></input></p>
+    <label>Last Name</label>
+    <p><input type="text" name="maker[last_name]"value="<%= @maker.last_name  %>"></input></p>
+    <label>Email</label>
+    <p><input type="text" name="maker[email]"value="<%= @maker.email %>"></input></p>
+    <label>Image</label>
+    <p><input type="text" name="maker[image_url]"value="<%= @maker.image_url  %>"></input></p>
+    <p><input type="submit"/></p>
+</form>

@@ -1,0 +1,8 @@
+<h1>Makers</h1>
+<% @makers.each do |m|  %>
+
+    <section>
+        <h2><%= m.full_name %></h2>
+        <img src="<%= m.image_url %>"></img>
+    </section>
+<% end %>
