@@ -5,3 +5,10 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Maker.create(
+  :first_name => "Rob",
+  :last_name => "Gilson",
+  :email => "rob@bitmakerlabs.com",
+  :image_url => "http://www.bitmakerlabs.com/assets/guru-rob-gilson-7b5cc603025a76880d2787bffffe81bc.jpg"
+)
