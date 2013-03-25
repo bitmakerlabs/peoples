@@ -1,10 +1,6 @@
 Peoples::Application.routes.draw do
 
-  get '/makers' => 'makers#index'
-  get '/makers/new' => 'makers#new'
-  post '/makers' => 'makers#create'
-  get '/makers/:id/edit'=> 'makers#edit'
-  post '/makers/:id' => 'makers#update'
+  resources :makers
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
